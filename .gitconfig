@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	email = thesdzakharov@gmail.com
+	name = Sergei Zakharov
+[alias]
+  l = "!. ~/.githelpers && pretty_git_log"
