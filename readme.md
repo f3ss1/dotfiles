@@ -16,7 +16,7 @@ to disable tracking and
 git update-index --no-skip-worktree <filename>
 ```
 
-to enable it again as I need. In general, there are two files you don't want to be tracked: `private_env_variables.zsh` for obvious reasons and `.gitconfig` since it contains your name and email address. The latter is not necessary this information is exposed anyway, but to avoid people setting my credentials by mistake when cloning the repo, I do this as well.
+to enable it again as I need. In general, there are two files you don't want to be tracked: `private_env_variables.zsh` for obvious reasons and `.gitconfig` since it contains your name and email address. The latter is not necessary since this information is exposed anyway, but to avoid people setting my credentials by mistake when cloning the repo, I do this as well.
 
 ## How to install
 
