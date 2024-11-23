@@ -1,1 +1,2 @@
-# Placeholder for the private variables you would not like to be tracked.
+GIT_EMAIL="your_email"
+GIT_NAME_SURNAME="your_name_surname"

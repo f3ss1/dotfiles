@@ -5,6 +5,10 @@
 # Add poetry and root-installed packages to PATH.
 export PATH="$HOME/.local/bin:$PATH"
 
+## EXTRA GIT SETTINGS ##
+git config --global user.email "$GIT_EMAIL"
+git config --global user.name "$GIT_NAME_SURNAME"
+
 ## OMZSH SETTINGS ## 
 export ZSH="$HOME/.oh-my-zsh"
 
