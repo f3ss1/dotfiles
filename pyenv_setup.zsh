@@ -1,7 +1,6 @@
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 export CERT_PATH=$(python3 -m certifi)
 export SSL_CERT_FILE=$CERT_PATH
