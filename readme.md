@@ -43,3 +43,6 @@ This setup encourages usage of `pyenv` to manage base `python` versions while us
 
 To install the `python` version you need, do not forget to meet the prerequirements [they list](https://github.com/pyenv/pyenv?tab=readme-ov-file#d-install-python-build-dependencies) first.  
 
+## TODO
+
+- Add script to download `zsh-syntax-highlight`.
