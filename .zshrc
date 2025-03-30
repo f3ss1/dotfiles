@@ -29,5 +29,5 @@ source $ZSH/oh-my-zsh.sh
 [[ -f "$HOME/.aliases.zsh" ]] && source "$HOME/.aliases.zsh"
 
 ## PYENV ##
-# [[ -f "$HOME/.pyenv_setup.zsh" ]] && source "$HOME/.pyenv_setup.zsh"
+# [[ -f "$HOME/.pyenv_setup.zsh" ]] && source "$HOME/pyenv_setup.zsh"
 
