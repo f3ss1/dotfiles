@@ -10,6 +10,8 @@ There is not `.gitignore` file in this repo since it appears that once file is b
 git update-index --skip-worktree <filename>
 ```
 
+**NOTE** that this would **APPEND** your git name credentials to `.private_env_variables.zsh`. Make sure that there is no collision in these (otherwise, the last ones specified in the file will be used).
+
 to disable tracking and 
 
 ```sh
