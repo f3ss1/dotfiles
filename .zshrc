@@ -1,6 +1,6 @@
 ## ENVIRONMENTAL VARIABLES ##
-[[ -f "$HOME/dotfiles/env_variables.zsh" ]] && source "$HOME/dotfiles/env_variables.zsh"
-[[ -f "$HOME/dotfiles/private_env_variables.zsh" ]] && source "$HOME/dotfiles/private_env_variables.zsh"
+[[ -f "$HOME/.env_variables.zsh" ]] && source "$HOME/.env_variables.zsh"
+[[ -f "$HOME/.private_env_variables.zsh" ]] && source "$HOME/.private_env_variables.zsh"
 
 # Add poetry and root-installed packages to PATH.
 export PATH="$HOME/.local/bin:$PATH"
@@ -26,8 +26,8 @@ source $ZSH/oh-my-zsh.sh
 ## ALIASES ##
 # Store your own aliases in the ~/.aliases file and load the here.
 # SRC: https://github.com/lewagon/dotfiles/blob/master/zshrc#L61
-[[ -f "$HOME/dotfiles/aliases.zsh" ]] && source "$HOME/dotfiles/aliases.zsh"
+[[ -f "$HOME/.aliases.zsh" ]] && source "$HOME/.aliases.zsh"
 
 ## PYENV ##
-# [[ -f "$HOME/dotfiles/pyenv_setup.zsh" ]] && source "$HOME/dotfiles/pyenv_setup.zsh"
+# [[ -f "$HOME/.pyenv_setup.zsh" ]] && source "$HOME/.pyenv_setup.zsh"
 

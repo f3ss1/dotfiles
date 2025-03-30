@@ -13,7 +13,26 @@ curl -fLo $PWD/.vim/autoload/plug.vim --create-dirs \
 
 # Make symlinks for files.
 echo $PWD
-[ -e ~/.vim ] && echo "~/.vim exists! Skipping symlink creation." || ln -s "$PWD/.vim" ~/.vim
-ln -s "$PWD/.vimrc" ~/.vimrc
-ln -s "$PWD/.gitconfig" ~/.gitconfig
-ln -s "$PWD/.githelpers" ~/.githelpers
+[ -e ~/.vim ] && echo "~/.vim exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration."
+|| ln -s "$PWD/.vim" ~/.vim
+
+[ -e ~/.vimrc ] && echo "~/.vimrc exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration."
+|| ln -s "$PWD/.vimrc" ~/.vimrc
+
+[ -e ~/.gitconfig ] && echo "~/.gitconfig exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration."
+|| ln -s "$PWD/.gitconfig" ~/.gitconfig
+
+[ -e ~/.githelpers ] && echo "~/.githelpers exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration."
+|| ln -s "$PWD/.githelpers" ~/.githelpers
+
+[ -e ~/.env_variables ] && echo "~/.env_variables exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration."
+|| ln -s "$PWD/.env_variables" ~/.env_variables
+
+[ -e ~/.private_env_variables ] && echo "~/.private_env_variables exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration."
+|| ln -s "$PWD/.private_env_variables" ~/.private_env_variables
