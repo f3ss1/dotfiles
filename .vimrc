@@ -10,10 +10,10 @@ call plug#end()
 " }}}
 
 " Color scheme {{{
+set termguicolors
 colorscheme onedark
 highlight Normal ctermbg=NONE guibg=#282C34
 syntax on
-set termguicolors
 set number
 
 " Enable filetypes support
