@@ -1,3 +1,5 @@
+export TERM=xterm-256color # Allows tmux to work correctly
+
 ## ENVIRONMENTAL VARIABLES ##
 [[ -f "$HOME/.env_variables.zsh" ]] && source "$HOME/.env_variables.zsh"
 [[ -f "$HOME/.private_env_variables.zsh" ]] && source "$HOME/.private_env_variables.zsh"
