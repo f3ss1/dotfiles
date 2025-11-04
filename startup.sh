@@ -40,3 +40,9 @@ echo $PWD
 [ -e ~/.aliases.zsh ] && echo "~/.aliases.zsh exists! Skipping symlink creation.
  Please make it manually after backing up existing content to avoid losing configuration." \
 || ln -s "$PWD/.aliases.zsh" ~/.aliases.zsh
+
+[ -e ~/.tmux.conf ] && echo "~/.tmux.conf exists! Skipping symlink creation.
+ Please make it manually after backing up existing content to avoid losing configuration." \
+|| ln -s "$PWD/.tmux.conf" ~/.tmux.conf
+
+
