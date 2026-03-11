@@ -8,6 +8,14 @@ The setup makes use of two files, `.private_env_variables.zsh` and `.extra.zsh`.
 so that the `.zshrc` could make use of them. These are not tracked and not present in this repo since they are personal
 by default and thus are not provided.
 
+Since once file is being tracked by git, it ignores the `.gitignore`, I use:
+
+```sh
+git update-index --skip-worktree <filename>
+```
+
+to add it to ignoring. You might want to do that for `.gitconfig` file to avoid leaking email.
+
 ## How to install
 
 **From the repo cloned**, run:
