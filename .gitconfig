@@ -1,9 +1,0 @@
-[init]
-    defaultBranch = main
-[user]
-    email = "not_overrided_by_zshrc_for_some_reason" # This is overrided in .zshrc
-    name = "not_overrided_by_zshrc_for_some_reason" # This is overrided in .zshrc
-[core]
-    editor = vim
-[alias]
-    l = "!. ~/.githelpers && pretty_git_log"

@@ -1,0 +1,9 @@
+[init]
+    defaultBranch = main
+[user]
+	email = "not_overrided_by_zshrc_for_some_reason"
+	name = "not_overrided_by_zshrc_for_some_reason"
+[core]
+    editor = vim
+[alias]
+    l = "!. $HOME/.config/git/githelpers && pretty_git_log"

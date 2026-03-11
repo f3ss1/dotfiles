@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # SRC: https://registerspill.thorstenball.com/p/how-i-use-git
 
 HASH="%C(always,yellow)%h%C(always,reset)"
@@ -11,7 +9,7 @@ SUBJECT="%s"
 FORMAT="$HASH $RELATIVE_TIME{$AUTHOR{$REFS $SUBJECT"
 
 pretty_git_log() {
-  git log --graph --pretty="tformat:$FORMAT" $* |
+  git log --graph --pretty="tformat:$FORMAT" $@ |
   column -t -s '{' |
   less -XRS --quit-if-one-screen
 }

@@ -1,0 +1,59 @@
+.secrets.baseline
+
+# --- OS junk ---
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+._*
+
+# --- Editor / IDE ---
+
+.vscode/
+.idea/
+*.iml
+
+# --- Vim ---
+
+*.swp
+*.swo
+*~
+
+# --- Logs ---
+
+*.log
+
+# --- Runtime / temp ---
+
+tmp/
+temp/
+.cache/
+*.tmp
+
+# --- Archives ---
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# --- Environment / secrets ---
+
+.env
+.env.*
+*.local
+
+# --- Build outputs (generic) ---
+
+dist/
+build/
+out/
+
+# --- Dependency directories (generic) ---
+
+node_modules/
+vendor/
